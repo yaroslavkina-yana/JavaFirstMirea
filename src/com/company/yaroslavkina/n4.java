@@ -6,8 +6,8 @@ public class n4 {
         System.out.print("Введите аргументы:");
         String input = scanner.nextLine();
         String [] zxc = input.split(" ");
-        for (String s : zxc) {
-            System.out.println(s);
+        for (int i = 0; i < zxc.length; i++) {
+            System.out.println(zxc[i]);
         }
     }
 }
